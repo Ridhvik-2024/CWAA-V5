@@ -12,6 +12,12 @@ The current experimental model, **CWAA-V5**, combines:
 
 CWAA-V5 was evaluated against a parameter-matched Transformer baseline on WikiText-103.
 
+## Checkpoint
+
+The trained CWAA-V5 checkpoint is available here:
+
+[Download CWAA-V5 checkpoint]([YOUR_GOOGLE_DRIVE_LINK](https://drive.google.com/file/d/1VQAMTnv5w8pn7_etuQL-9RztbMro-Y3y/view?usp=sharing))
+
 ## Current Result
 
 | Model | Parameters | Validation PPL | Test PPL |
