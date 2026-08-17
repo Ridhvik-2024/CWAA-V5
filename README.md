@@ -69,6 +69,8 @@ At a high level:
                       │
                       ▼
                  Prediction
+
+```
 				 
 The architecture is intentionally a coupled system: the local and global mechanisms are designed to operate together rather than as independent replacements for individual Transformer components.
 
