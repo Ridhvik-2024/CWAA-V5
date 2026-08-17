@@ -1,0 +1,160 @@
+======================================================================
+V5 WAVE OBSERVATORY
+======================================================================
+Device: cpu
+Checkpoint: spectral_v5_rigorous.pt
+
+Creating exact V5 architecture...
+Loading checkpoint...
+Checkpoint loaded successfully.
+Exact V5 architecture confirmed.
+
+Parameters: 10,396,152
+Parameters: 10.3962M
+
+======================================================================
+INPUT
+======================================================================
+The spacecraft entered orbit around Mars after completing a long interplanetary journey.
+
+Token count: 15
+
+00: 'The'
+01: ' spacecraft'
+02: ' entered'
+03: ' orbit'
+04: ' around'
+05: ' Mars'
+06: ' after'
+07: ' completing'
+08: ' a'
+09: ' long'
+10: ' inter'
+11: 'plan'
+12: 'etary'
+13: ' journey'
+14: '.'
+
+Installing wave probes...
+Probes installed.
+
+======================================================================
+RUNNING V5
+======================================================================
+
+Forward pass complete.
+Local layers captured: 12
+Global layers captured: 12
+All 12 layers captured successfully.
+
+======================================================================
+LEARNED GLOBAL WAVE PARAMETERS
+======================================================================
+
+Layer 01
+  Head 1: lambda=0.979843  omega=+0.137251  |gamma|=0.979843
+  Head 2: lambda=0.979819  omega=-0.299699  |gamma|=0.979819
+  Head 3: lambda=0.983930  omega=-0.044731  |gamma|=0.983930
+  Head 4: lambda=0.982259  omega=-0.000032  |gamma|=0.982259
+
+Layer 02
+  Head 1: lambda=0.980797  omega=+0.076153  |gamma|=0.980797
+  Head 2: lambda=0.979114  omega=-0.213504  |gamma|=0.979114
+  Head 3: lambda=0.982649  omega=-0.017049  |gamma|=0.982649
+  Head 4: lambda=0.983327  omega=+0.001012  |gamma|=0.983327
+
+Layer 03
+  Head 1: lambda=0.976938  omega=+0.176361  |gamma|=0.976938
+  Head 2: lambda=0.981768  omega=-0.000826  |gamma|=0.981768
+  Head 3: lambda=0.978762  omega=+0.060437  |gamma|=0.978762
+  Head 4: lambda=0.977736  omega=-0.091183  |gamma|=0.977736
+
+Layer 04
+  Head 1: lambda=0.984241  omega=+0.011614  |gamma|=0.984241
+  Head 2: lambda=0.980164  omega=+0.041657  |gamma|=0.980164
+  Head 3: lambda=0.979939  omega=-0.000203  |gamma|=0.979939
+  Head 4: lambda=0.979548  omega=+0.047312  |gamma|=0.979548
+
+Layer 05
+  Head 1: lambda=0.973871  omega=+0.109529  |gamma|=0.973871
+  Head 2: lambda=0.973716  omega=+0.242824  |gamma|=0.973716
+  Head 3: lambda=0.979825  omega=+0.017079  |gamma|=0.979825
+  Head 4: lambda=0.980703  omega=+0.000714  |gamma|=0.980703
+
+Layer 06
+  Head 1: lambda=0.978555  omega=+0.027211  |gamma|=0.978555
+  Head 2: lambda=0.979487  omega=-0.007203  |gamma|=0.979487
+  Head 3: lambda=0.979714  omega=+0.003436  |gamma|=0.979714
+  Head 4: lambda=0.976070  omega=+0.058619  |gamma|=0.976070
+
+Layer 07
+  Head 1: lambda=0.972747  omega=-0.166124  |gamma|=0.972747
+  Head 2: lambda=0.979312  omega=+0.017285  |gamma|=0.979312
+  Head 3: lambda=0.977686  omega=+0.007178  |gamma|=0.977686
+  Head 4: lambda=0.975307  omega=+0.064902  |gamma|=0.975307
+
+Layer 08
+  Head 1: lambda=0.972855  omega=+0.111425  |gamma|=0.972855
+  Head 2: lambda=0.978243  omega=-0.003974  |gamma|=0.978244
+  Head 3: lambda=0.977325  omega=+0.025965  |gamma|=0.977325
+  Head 4: lambda=0.978479  omega=+0.001532  |gamma|=0.978479
+
+Layer 09
+  Head 1: lambda=0.980950  omega=+0.003710  |gamma|=0.980950
+  Head 2: lambda=0.977251  omega=+0.025477  |gamma|=0.977251
+  Head 3: lambda=0.974413  omega=+0.095360  |gamma|=0.974413
+  Head 4: lambda=0.974465  omega=-0.055573  |gamma|=0.974465
+
+Layer 10
+  Head 1: lambda=0.976491  omega=-0.053556  |gamma|=0.976491
+  Head 2: lambda=0.973015  omega=-0.216676  |gamma|=0.973015
+  Head 3: lambda=0.981479  omega=-0.001670  |gamma|=0.981479
+  Head 4: lambda=0.973019  omega=-0.148666  |gamma|=0.973019
+
+Layer 11
+  Head 1: lambda=0.983636  omega=+0.000700  |gamma|=0.983636
+  Head 2: lambda=0.982536  omega=+0.004354  |gamma|=0.982536
+  Head 3: lambda=0.982497  omega=+0.001689  |gamma|=0.982497
+  Head 4: lambda=0.981091  omega=+0.018385  |gamma|=0.981092
+
+Layer 12
+  Head 1: lambda=0.978068  omega=+0.249975  |gamma|=0.978068
+  Head 2: lambda=0.980489  omega=+0.044147  |gamma|=0.980489
+  Head 3: lambda=0.980953  omega=+0.092539  |gamma|=0.980953
+  Head 4: lambda=0.984920  omega=-0.002513  |gamma|=0.984920
+
+======================================================================
+CREATING AUDIO
+======================================================================
+Creating full layer evolution audio...
+Creating local wave plots...
+Saving local wave data...
+Saving global wave data...
+
+======================================================================
+OBSERVATORY COMPLETE
+======================================================================
+
+Output directory:
+/content/V5_WAVE_OBSERVATORY
+
+Most important audio:
+  V5_FULL_LAYER_EVOLUTION.wav
+
+Most important visualizations:
+  ALL_LAYERS_AMPLITUDE.png
+  ALL_LAYERS_PHASE.png
+  GLOBAL_STATE_STRENGTH.png
+  GLOBAL_LAMBDA.png
+  GLOBAL_OMEGA.png
+
+Raw data:
+  V5_LOCAL_WAVES.npz
+  V5_GLOBAL_PARAMETERS.npz
+
+12 / 12 local wave layers captured.
+12 / 12 global wave layers captured.
+
+======================================================================
+THE V5 WAVES ARE READY.
+======================================================================

@@ -1,0 +1,29 @@
+===========================================================================
+Spectral V5 - Rigorous Wave Linear Attention
+Parameters: 10.3962M
+Steps: 5000
+===========================================================================
+Step     0 | LR 0.000000 | Train 10.8473 | Val 10.8464 | PPL 51349.65
+  -> Saved best: spectral_v5_rigorous.pt
+Step   500 | LR 0.000300 | Train 6.7270 | Val 6.4924 | PPL 660.08
+  -> Saved best: spectral_v5_rigorous.pt
+Step  1000 | LR 0.000292 | Train 5.9443 | Val 5.9026 | PPL 365.98
+  -> Saved best: spectral_v5_rigorous.pt
+Step  1500 | LR 0.000268 | Train 5.6834 | Val 5.5873 | PPL 267.01
+  -> Saved best: spectral_v5_rigorous.pt
+Step  2000 | LR 0.000232 | Train 5.5365 | Val 5.4138 | PPL 224.49
+  -> Saved best: spectral_v5_rigorous.pt
+Step  2500 | LR 0.000188 | Train 5.3659 | Val 5.2405 | PPL 188.76
+  -> Saved best: spectral_v5_rigorous.pt
+Step  3000 | LR 0.000142 | Train 5.1718 | Val 5.1580 | PPL 173.81
+  -> Saved best: spectral_v5_rigorous.pt
+Step  3500 | LR 0.000098 | Train 5.1919 | Val 5.0906 | PPL 162.48
+  -> Saved best: spectral_v5_rigorous.pt
+Step  4000 | LR 0.000062 | Train 5.0136 | Val 4.9985 | PPL 148.19
+  -> Saved best: spectral_v5_rigorous.pt
+Step  4500 | LR 0.000038 | Train 5.1410 | Val 4.9207 | PPL 137.09
+  -> Saved best: spectral_v5_rigorous.pt
+Step  4999 | LR 0.000030 | Train 4.9314 | Val 5.0065 | PPL 149.38
+
+Best validation loss: 4.920663261413575
+Best PPL: 137.0935118748184

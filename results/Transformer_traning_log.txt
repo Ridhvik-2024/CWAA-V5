@@ -1,0 +1,75 @@
+
+================================================================================
+PARAMETER-MATCHED TRANSFORMER
+================================================================================
+Device       : cuda
+Embedding    : 128
+Layers       : 15
+Heads        : 4
+Context      : 256
+Batch        : 16
+Accumulation : 2
+Steps        : 5000
+
+Loading WikiText-103...
+Tokenizing train...
+Tokenizing validation...
+Train tokens: 117,920,140
+Val tokens:   247,289
+
+Transformer parameters: 10.3730M
+V5 target: 10.3962M
+Difference from V5: -0.0232M
+
+================================================================================
+TRAINING
+================================================================================
+Step     0 | LR 0.000000 | Train 10.8289 | Val 10.8392 | PPL 50983.11
+  -> Saved best: transformer_baseline_parammatched.pt
+Step   500 | LR 0.000300 | Train 6.6277 | Val 6.6031 | PPL 737.40
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  1000 | LR 0.000292 | Train 5.9539 | Val 5.9946 | PPL 401.24
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  1500 | LR 0.000268 | Train 5.5838 | Val 5.6917 | PPL 296.40
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  2000 | LR 0.000232 | Train 5.4908 | Val 5.4593 | PPL 234.93
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  2500 | LR 0.000188 | Train 5.4084 | Val 5.3118 | PPL 202.72
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  3000 | LR 0.000142 | Train 5.2010 | Val 5.2317 | PPL 187.11
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  3500 | LR 0.000098 | Train 5.2532 | Val 5.1342 | PPL 169.73
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  4000 | LR 0.000062 | Train 5.1484 | Val 5.0634 | PPL 158.12
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  4500 | LR 0.000038 | Train 5.0752 | Val 5.0052 | PPL 149.19
+  -> Saved best: transformer_baseline_parammatched.pt
+Step  4999 | LR 0.000030 | Train 5.2303 | Val 5.0762 | PPL 160.17
+
+================================================================================
+BEST TRAINING RESULT
+================================================================================
+Step : 4500
+Loss : 5.005211
+PPL  : 149.1886
+
+Loaded checkpoint from step 4500
+
+================================================================================
+FIXED EVALUATION
+================================================================================
+Transformer | Loss 5.041977 | PPL 154.7756
+
+================================================================================
+Parameter-Matched Transformer - CONTEXT SCALING
+================================================================================
+   Ctx |      Loss |        PPL |        Tok/s |       VRAM
+-----------------------------------------------------------------
+   256 |    4.8734 |     130.76 |      45209.2 |       1.08 GB
+   512 |    5.4101 |     223.65 |      66357.1 |       1.17 GB
+  1024 |    5.7882 |     326.43 |      65758.5 |       1.37 GB
+  2048 |    5.7859 |     325.66 |      58696.9 |       1.75 GB
+
+================================================================================
+EXPERIMENT COMPLETE
+================================================================================
