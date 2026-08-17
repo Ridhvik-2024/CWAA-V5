@@ -16,7 +16,7 @@ CWAA-V5 was evaluated against a parameter-matched Transformer baseline on WikiTe
 
 The trained CWAA-V5 checkpoint is available here:
 
-[Download CWAA-V5 checkpoint]([YOUR_GOOGLE_DRIVE_LINK](https://drive.google.com/file/d/1VQAMTnv5w8pn7_etuQL-9RztbMro-Y3y/view?usp=sharing))
+[Download CWAA-V5 checkpoint][https://drive.google.com/file/d/1VQAMTnv5w8pn7_etuQL-9RztbMro-Y3y/view?usp=sharing]
 
 ## Current Result
 
